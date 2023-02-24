@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo1a.jpg" type="image/x-icon">
+    <title>Blog</title>
+    <style>
+        body {
+
+            margin: 0;
+            margin-bottom: 0;
+
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+
+            justify-content: space-between;
+            background-color: #00838f;
+            align-items: center;
+            height: 74px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0px;
+
+            width: 100%;
+
+
+
+        }
+
+        a {
+
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        input {
+            cursor: pointer;
+        }
+
+        ul {
+
+            list-style: none;
+        }
+
+        .container a {
+            padding: 32px;
+            color: white;
+
+        }
+
+        .container ul {
+            display: flex;
+
+
+        }
+
+        .search {
+            margin-right: 12px;
+            height: 30px;
+            width: 250px;
+            border: 1px solid gray;
+            border-radius: 23px;
+            text-align: center;
+
+        }
+
+        .nav {
+            margin-left: 40px;
+        }
+        .navi>li>a:hover{
+            color: yellowgreen;
+        }
+        #active{
+              color: rgb(40, 247, 209);
+        }
+
+        .box1 {
+            margin-left: 12px;
+
+            color: white;
+        }
+
+        .logo {
+            height: 75px;
+            width: 68px;
+
+        }
+
+        .circle {
+            border: 2px solid gray;
+            border-radius: 78px;
+        }
+
+        .boxex {
+            margin-top: 22px;
+            margin-right: 45px;
+        }
+
+        .article {
+            margin-right: 234px;
+        }
+
+        .aside h2 {
+            margin-left: 99px;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 56px;
+            width: 890px;
+        }
+
+        .aside {
+            background-color: #e0e0e0;
+            height: 100em;
+            margin-right: 12px;
+            width: 333%;
+
+
+
+        }
+
+        .importantlink {
+
+            background-color: #cfd8dc;
+            /* box-shadow: 5ch; */
+        }
+
+        .aside li {
+            margin-top: 23px;
+            border-bottom: 2px solid rgb(95, 48, 87);
+            margin-left: -54px;
+            text-align: center;
+            /* box-shadow:7px black; */
+        }
+
+        .aside li a {
+            margin-left: -40px;
+            color: #3b74eb;
+        }
+
+        .link1:hover {
+            font-size: large;
+
+        }
+
+        .pic>img {
+            margin: 5px;
+            height: 350px;
+            width: 300px;
+            margin-left: 23px;
+        }
+
+        .services {
+            /* display: flex;
+            flex-wrap: wrap; */
+            margin-top: 20px;
+            width: 1150px;
+            /* height: 20; */
+        }
+
+
+        .service {
+            margin: 12px;
+            flex-basis: 25%;
+            border: 2px solid rgb(0 0 0 / 10%);
+            padding: 8px;
+            height: 280px;
+            width: 800px;
+        }
+
+
+        img {
+            width: 100%;
+            /* height: 200px; */
+        }
+
+
+        footer {
+
+            position: fixed;
+            bottom: -35px;
+            width: 100%;
+            background-color: #00695c;
+            height: 34px;
+            text-align: center;
+            color: white;
+            margin-bottom: 34px;
+
+
+        }
+
+        footer p {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function sayaboutme(){
+            alert(" Profile                                                                         Name : Ravi kumar                                                                          Student of: MCA                                                                             UID:22MCA20804")
+            
+        }
+    </script>
+    <div class="container">
+
+        <div class="box1 logo"><img src="logo1a.jpg" alt="" class="circle" onclick="sayaboutme()">
+
+        </div>
+        <div class="box2">
+
+            <nav class="nav">
+                <ul class="navi">
+                    <li><a href="1home.html" >HOME</a></li>
+                    <li><a href="2intro.html">HTML</a></li>
+                    <li><a href="2introcss.html" id="active">CSS</a></li>
+                    <li><a href="">JAVASCRIPT</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div>
+
+            <a href="http://google.com"><input type="text" value="" placeholder="Search Here" class="search"></a>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="aside">
+            <div class="importantlink">
+                <h2>CSS</h2>
+                <ul>
+
+                    <li class="link1"><a href="2introcss.html">Introduction of CSS</a></li>
+                    <li class="link1"><a href="3selectorcss.html">CSS Selector</a></li>
+                    <li class="link1"><a href="4howtoaddcss.html">How to add CSS</a></li>
+                    <li class="link1"><a href="5propertiescss.html">CSS Properties</a></li>
+                    <li class="link1"><a href="6CSS Design.html">CSS Design</a></li>
+
+                </ul>
+            </div>
+
+            <div class="pic"><img src="picflex.jpg" alt=""></div>
+        </div>
+
+        <div class="boxex">
+            <div class="article">
+                <h1 style="text-align: center;">CSS Design
+                    <hr>
+                </h1>
+
+
+                <h1>CSS Design</h1>
+
+                <ol>
+                    <li>
+                        <h2>CSS Grid</h2>
+                    </li>
+                    <p>A grid can be defined as an intersecting set of horizontal lines and vertical lines. CSS Grid
+                        layout divides a page into major regions. It defines the relationship between the parts of a
+                        control built from HTML primitives in terms of layer, position, and size. Grid property offers a
+                        grid-based layout system having rows and columns. It makes the designing of web pages easy
+                        without positioning and floating.</p>
+                    <h3>Grid Container</h3>
+                    <p>We can define the grid container by setting the display property to grid or inline-grid on an
+                        element.</p>
+
+                    <h4>Let's see some of the shorthand properties:</h4>
+                    <ol>
+                        <li>grid-template-columns: It is used to specify the size of the columns.</li>
+                        <li>grid-template-rows: It is used to specify the row size.</li>
+                        <li>grid-template-areas: It is used to specify the grid layout by using the named items.</li>
+                        <li>grid-auto-rows: It is used to specify the automatic size of the rows.</li>
+                        <li>grid-auto-columns: It is used to specify the automatic size of the columns.</li>
+                        <li>grid-auto-flow: It is used to specify how to place auto-placed items and the automatic row
+                            size.</li>
+                    </ol>
+
+                    <li>
+                        <h2>CSS Layout</h2>
+                    </li>
+                    <p>CSS layout is easy to design. We can use CSS layout to design our web page such as home page,
+                        contact us, about us etc.</p>
+
+                    <p>There are 3 ways to design layout of a web page:</p>
+                    <ol>
+                        <li>HTML Div with CSS: fast and widely used now.</li>
+                        <li>HTML Table: slow and less preferred.</li>
+                        <li>HTML Frameset: deprecated now.</li>
+
+                    </ol>
+                    <li>
+                        <h2>CSS Table</h2>
+                    </li>
+                    <p>We can apply style on HTML tables for better look and feel. There are some CSS properties that
+                        are widely used in designing table using CSS:</p>
+
+                    <ol>
+                        <li>border</li>
+                        <li>border-collapse</li>
+                        <li>padding</li>
+                        <li>width</li>
+                        <li>height</li>
+                        <li>text-align</li>
+                        <li>color</li>
+                        <li>background-color</li>
+                    </ol>
+                    <li>
+                        <h2>CSS Box Model</h2>
+                    </li>
+                    <p>The components that can be depicted on the web page consist of one or more than one rectangular
+                        box.</p>
+                    <p>YThe following diagram illustrates how the CSS properties of width, height, padding, border and
+                        margin dictate that how much space an attribute will occupy on a web page.</p>
+                        <img src="css-box-model.png" alt="" style="width: 300px;height: 300px;">
+                    <ol>
+                        <li>CSS Static Positioning</li>
+                        <li>CSS Fixed Positioning</li>
+                        <li>CSS Relative Positioning</li>
+                        <li>CSS Absolute Positioning</li>
+                    </ol>
+
+
+                </ol>
+
+                <br>
+
+            </div>
+            <div class="services">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <marquee behavior="" direction="">
+            <p> Welcome To My Website And Leran More About Web Development And How To Make Web Page With The Help Of HTML ,CSS AND JAVASCRIPT. </p>
+        </marquee>
+    </footer>
+</body>
+
+</html>

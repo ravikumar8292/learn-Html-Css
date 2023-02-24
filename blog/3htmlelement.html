@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo1a.jpg" type="image/x-icon">
+    <title>Blog</title>
+    <style>
+        body {
+            
+            margin: 0;
+            margin-bottom: 0;
+            
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+           
+            justify-content: space-between;
+            background-color: #00838f;
+            align-items: center;
+            height: 74px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0px;
+
+            width: 100%;
+           
+
+
+        }
+
+        a {
+
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        input {
+            cursor: pointer;
+        }
+
+        ul {
+
+            list-style: none;
+        }
+
+        .container a {
+            padding: 32px;
+            color: white;
+           
+        }
+
+        .container ul {
+            display: flex;
+            
+
+        }
+
+        .search {
+            margin-right: 12px;
+            height: 30px;
+            width: 250px;
+            border: 1px solid gray;
+            border-radius: 23px;
+            text-align: center;
+            
+        }
+        .nav{
+            margin-left: 40px;
+        }
+        .navi>li>a:hover{
+            color: yellowgreen;
+        }
+        #active{
+              color: rgb(40, 247, 209);
+        }
+
+        .box1 {
+            margin-left: 12px;
+           
+            color: white;
+        }
+
+        .logo {
+            height: 75px;
+            width: 68px;
+
+        }
+
+        .circle {
+            border: 2px solid gray;
+            border-radius: 78px;
+        }
+        .boxex{
+            margin-top: 22px;
+            margin-right: 45px;
+        }
+        .article{
+            margin-right: 234px;
+        }
+        .aside h2{
+            margin-left: 99px;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 56px;
+            width: 890px;
+        }
+        
+        .aside {
+            background-color: #e0e0e0;
+            height: 41em;
+            margin-right: 12px;
+            width: 333%;
+            
+            
+            
+        }
+        
+        .importantlink{
+
+            background-color: #cfd8dc;
+            /* box-shadow: 5ch; */
+        }
+        .aside li{
+            margin-top: 23px;
+            border-bottom: 2px solid rgb(95, 48, 87);
+            margin-left: -54px;
+            text-align: center;
+            /* box-shadow:7px black; */
+        }
+        .aside li a{
+            margin-left: -40px;
+            color: #3b74eb;
+        }
+        .link1:hover{
+            font-size: large; 
+          
+        }
+        .pic>img{
+            margin: 5px;
+            height: 350px;
+            width: 300px;
+            margin-left: 23px;
+        }
+        .services {
+            /* display: flex;
+            flex-wrap: wrap; */
+            margin-top: 20px;
+            width: 1150px;
+            /* height: 20; */
+        }
+      
+
+        .service {
+            margin: 12px;
+            flex-basis: 25%;
+            border: 2px solid rgb(0 0 0 / 10%);
+            padding: 8px;
+            height: 280px;
+            width: 800px;
+        }
+       
+      
+        img{
+            width: 100%;
+            /* height: 200px; */
+        }
+        
+
+        footer {
+            
+            position: fixed;
+            bottom: -35px;
+            width: 100%;
+            background-color: #00695c;
+            height: 34px;
+            text-align: center;
+            color: white;
+            margin-bottom: 34px;
+            
+
+        }
+
+        footer p {
+            margin-top: 8px;
+        }
+
+     
+
+     
+
+       
+    </style>
+</head>
+
+<body>
+    <script>
+        function sayaboutme(){
+            alert(" Profile                                                                         Name : Ravi kumar                                                                          Student of: MCA                                                                             UID:22MCA20804")
+            
+        }
+    </script>
+    <div class="container">
+
+        <div class="box1 logo"><img src="logo1a.jpg" alt="" class="circle" onclick="sayaboutme()">
+
+        </div>
+        <div class="box2">
+
+            <nav class="nav">
+                <ul class="navi">
+                    <li><a href="1home.html">HOME</a></li>
+                    <li><a href="2intro.html" id="active">HTML</a></li>
+                    <li><a href="2introcss.html">CSS</a></li>
+                    <li><a href="">JAVASCRIPT</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div >
+
+            <a href="http://google.com"><input type="text" value="" placeholder="Search Here" class="search"></a>
+        </div>
+    </div>
+    
+
+    <div class="main">
+        <div class="aside">
+            <div class="importantlink">
+            <h2>HTML</h2>
+            <ul >
+               
+                <li class="link1"><a href="2intro.html">Introduction of HTML</a></li>
+                <li class="link1"><a href="3htmlelement.html">Html Elements</a></li>
+                <li class="link1"><a href="4htmlattribute.html">HTML Attribute</a></li>
+                <li class="link1"><a href="5htmlanchor.html">HTML Anchor</a></li>
+                <li class="link1"><a href="6htmlimage.html">HTML Image</a></li>
+                
+            </ul>
+            </div>
+
+         <div class="pic"><img src="picflex.jpg" alt=""></div> 
+        </div>
+
+        <div class="boxex">
+            <div class="article">
+                <h1 style="text-align: center;">HTML ELEMENTS<hr> </h1>
+                
+
+                <h3>An HTML element is defined by a start tag, some content, and an end tag.</h3> 
+                <h2>SYNTAX</h2>
+                <h3><ul>
+                    <li>The HTML element is everything from the start tag to the end tag:</li>
+                    <li>&lt;tagname&gt;Content goes here..&lt;/tagname&gt;
+
+                    </ul>    
+            
+
+                <h2>Examples of some HTML elements:</h2>
+                    <ul>
+                    <li>&lt;h1&gt;My First Heading&lt;/h1&gt; </li>
+                    <li>&lt;p&gt;My First Heading&lt;/p&gt; </li>
+                   
+                </ul> 
+
+            </div>
+            <div>
+                <h2>Nested HTML Elements</h2>
+                <ul>
+                    <li>HTML elements can be nested (this means that elements can contain other elements). </li>
+                    <br>
+                    <li>All HTML documents consist of nested HTML elements. </li>
+                    <br>
+                    <li>The &lt;head&gt; element contains meta information about the HTML page </li>
+                    <br>
+                    <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) </li>
+                    <br>
+                    <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. </li>
+                    <br>
+                    <li>The &lt;h1&gt; element defines a large heading </li>
+                    <br>
+                    
+                   
+                </ul>
+                
+                
+                
+                
+                
+                
+                
+               
+               </h3>
+            </div>
+
+            <div class="services">
+               
+             
+            </div>
+        </div>
+    </div>
+    <footer>
+        <marquee behavior="" direction="">
+            <p> Welcome To My Website And Leran More About Web Development And How To Make Web Page With The Help Of HTML ,CSS AND JAVASCRIPT. </p>
+        </marquee>
+    </footer>
+</body>
+
+</html>
